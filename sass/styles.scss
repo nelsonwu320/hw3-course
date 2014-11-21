@@ -16,23 +16,31 @@
   // Practice 2, Practice 4.
   //
   ul{
-  
-  list-style:none;
-
+    list-style-type: none;
   }
+
   &.affix{
     // The next element should have a top-margin so that the entire page
     // dont jump high when .affix is applied.
+    top: 0;
+    left: 0;
+    right :0;
+    background: $body-bg;
+    @include box-shadow( 0 0 16px rgba(0, 0, 0, 0.15) );
+    
+    //抬昇選單layer調整內容壓住選單問題
+    z-index: 1; 
     + *{
-       margin-top: 126px;
-     }
-    top:0;
-    left:0;
-    right:0;
-    background:$body-bg;
-    @include box-shadow( 0 0 16px rgba(0,0,0,0.15) );
-    z-index:1;
-
+    margin-top: 126px;
+    }
+    //差異
+    h1{
+      display: none;
+    }
+    ul{
+      margin-top: 1em;
+    }
+    //差異
   }
 }
 
@@ -40,8 +48,8 @@
   //
   // Practice 5.
   //
-  background:image-url('slider.png');
-  background-size:cover;
+  background: image-url('slider.png');
+  background-size: cover;
 
   h2 span{
     padding: 0 0.25em;
@@ -52,6 +60,8 @@
     font-weight: normal;
   }
 }
+
+
 
 .gd-expertise{
   dt{
@@ -104,9 +114,10 @@
   // Practice 7.
   //
 }
-.glyphicon {
-  font-size:85px;
+.glyphicon{
+  font-size: 100px;
 }
+
 .gd-contact{
   padding-bottom: 5em;
 }

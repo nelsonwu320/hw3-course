@@ -4207,14 +4207,14 @@ select[multiple].input-lg,
 /* line 79, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-danger {
   color: #fff;
-  background-color: #da4f49;
-  border-color: #d63b34;
+  background-color: #d9534f;
+  border-color: #d43f3a;
 }
 /* line 11, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger:hover, .btn-danger:focus, .btn-danger.focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
   color: #fff;
-  background-color: #c72f29;
-  border-color: #aa2823;
+  background-color: #c9302c;
+  border-color: #ac2925;
 }
 /* line 21, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
@@ -4222,12 +4222,12 @@ select[multiple].input-lg,
 }
 /* line 29, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled.focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled].focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger.focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
-  background-color: #da4f49;
-  border-color: #d63b34;
+  background-color: #d9534f;
+  border-color: #d43f3a;
 }
 /* line 40, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger .badge {
-  color: #da4f49;
+  color: #d9534f;
   background-color: #fff;
 }
 
@@ -8146,9 +8146,9 @@ button.close {
 }
 /* line 18, ../sass/styles.scss */
 .gd-header ul {
-  list-style: none;
+  list-style-type: none;
 }
-/* line 23, ../sass/styles.scss */
+/* line 22, ../sass/styles.scss */
 .gd-header.affix {
   top: 0;
   left: 0;
@@ -8159,17 +8159,25 @@ button.close {
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
   z-index: 1;
 }
-/* line 26, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 .gd-header.affix + * {
   margin-top: 126px;
 }
+/* line 37, ../sass/styles.scss */
+.gd-header.affix h1 {
+  display: none;
+}
+/* line 40, ../sass/styles.scss */
+.gd-header.affix ul {
+  margin-top: 1em;
+}
 
-/* line 39, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 .gd-jumbotron {
   background: url('../images/slider.png?1375408068');
   background-size: cover;
 }
-/* line 46, ../sass/styles.scss */
+/* line 54, ../sass/styles.scss */
 .gd-jumbotron h2 span {
   padding: 0 0.25em;
   font-size: 72px;
@@ -8179,15 +8187,15 @@ button.close {
   font-weight: normal;
 }
 
-/* line 57, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 .gd-expertise dt {
   font-weight: normal;
 }
-/* line 60, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 .gd-expertise dd {
   margin-left: 0;
 }
-/* line 63, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 .gd-expertise .progress {
   margin-bottom: 3px;
   height: 14px;
@@ -8198,39 +8206,39 @@ button.close {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 69, ../sass/styles.scss */
+/* line 79, ../sass/styles.scss */
 .gd-expertise .progress-striped .bar {
   background-color: #5BC0DE;
 }
 
-/* line 74, ../sass/styles.scss */
+/* line 84, ../sass/styles.scss */
 .gd-well {
   margin: 5em 0;
 }
-/* line 76, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 .gd-well h3 {
   margin-top: 0;
 }
-/* line 79, ../sass/styles.scss */
+/* line 89, ../sass/styles.scss */
 .gd-well p {
   margin-bottom: 0;
 }
-/* line 82, ../sass/styles.scss */
+/* line 92, ../sass/styles.scss */
 .gd-well .btn {
   margin-top: 15px;
 }
 
-/* line 87, ../sass/styles.scss */
+/* line 97, ../sass/styles.scss */
 .gd-service {
   background: url('../images/dark-bg.jpg?1375410220');
   padding: 5em 0;
   margin-bottom: 5em;
 }
-/* line 92, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 .gd-service h1 {
   color: #fff;
 }
-/* line 96, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 .gd-service .gd-service-item {
   height: 550px;
   border: 1px solid #666;
@@ -8238,17 +8246,17 @@ button.close {
   color: #fff;
 }
 
-/* line 107, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 .glyphicon {
-  font-size: 85px;
+  font-size: 100px;
 }
 
-/* line 110, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 .gd-contact {
   padding-bottom: 5em;
 }
 
-/* line 114, ../sass/styles.scss */
+/* line 125, ../sass/styles.scss */
 #gd-map-canvas {
   width: 100%;
   height: 360px;
